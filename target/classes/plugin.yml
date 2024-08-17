@@ -1,0 +1,17 @@
+name: CraftBarrel
+version: '1.0'
+main: org.kyas.craftbarrel.CraftBarrel
+description: This plugin adding barrels in which you can create items.
+author: _Kyas17
+website: https://github.com/Sauron971
+
+api-version: '1.20'
+commands:
+  craftsBarrel:
+    description: Uses in plugin
+    permission: craftBarrel.command.usage
+    permission-message: You don't have permission!
+permissions:
+  craftBarrel.command.usage:
+    description: Allows usage command
+    default: op
